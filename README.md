@@ -24,5 +24,5 @@ xattr -dr com.apple.quarantine /Applications/Terminal.app
 Check the download against the `.sha256` file published with each release:
 
 ```
-shasum -a 256 -c Terminal_<version>_aarch64.dmg.sha256
+shasum -a 256 -c Terminal_aarch64.dmg.sha256
 ```
